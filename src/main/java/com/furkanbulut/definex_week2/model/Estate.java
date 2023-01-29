@@ -11,6 +11,7 @@ import java.math.BigDecimal;
 @Builder
 public class Estate {
 
+    // ev tipi enum türünde olduğu belirtildi.
     @Enumerated(EnumType.STRING)
     private EstateType estateType;
 
